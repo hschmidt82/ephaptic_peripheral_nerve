@@ -42,3 +42,28 @@ This file generates Figures 4a and 4b. It calls the function ‘fSpikeProp.m’.
 - Figure4cd.m
 
 Produces Figures 4c and 4d. If drvec is set to 0.03 in line 6, and ‘uniform’ is changed to ‘alpha’ in line 58, then this script produces Figures 5c and 5d.
+
+
+# Update 20 May 2022:
+
+The manuscript is now published: https://doi.org/10.1007/s00422-022-00934-9
+
+Thanks to the reviewers’ keen eyes, the manuscript has undergone some substantial improvements compared to the biorxiv version. The file “SPM_final_diff.tar.gz” contains all files necessary to recreate the changes in the figures:
+
+Fit_a1.m creates Figure 3b, loads Fit_Profile.mat
+
+Fit_Pars2.m creates Figure 3c, loads Fit_Delays_N10_v2.mat
+
+Figure3d.m creates the panels in Figure 3d, requires fSpikeProp (from original submission)
+
+Figure3e.m creates Figure 3e, requires fCable_biophys3.m
+
+Figure4d.m creates the panels in Figure 4d, loads Fig4cdrev_delay_N200.mat
+
+Figure5d creates the panels in Figure 5d, loads Fig5cdrev_delay_N200.mat
+
+Screen_Cable_biophys_large.m creates the results for Figure 6b, requires fCable_biophys2.m
+
+Quad_approx.m generates the results for “SPM” in Figure 6c, requires fQuad_approx.m
+
+Cable_eph_theor_2.m generates the results for “biophysical” in Figure 6c, requires fCable_eph_theor_2.m and loads Cable_passive.mat
