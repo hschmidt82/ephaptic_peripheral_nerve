@@ -54,13 +54,13 @@ Fit_a1.m creates Figure 3b, loads Fit_Profile.mat
 
 Fit_Pars2.m creates Figure 3c, loads Fit_Delays_N10_v2.mat
 
-Figure3d.m creates the panels in Figure 3d, requires fSpikeProp (from original submission)
+Figure3d.m creates the panels in Figure 3d, requires fSpikeProp.m (from original submission)
 
 Figure3e.m creates Figure 3e, requires fCable_biophys3.m
 
 Figure4d.m creates the panels in Figure 4d, loads Fig4cdrev_delay_N200.mat
 
-Figure5d creates the panels in Figure 5d, loads Fig5cdrev_delay_N200.mat
+Figure5d.m creates the panels in Figure 5d, loads Fig5cdrev_delay_N200.mat
 
 Screen_Cable_biophys_large.m creates the results for Figure 6b, requires fCable_biophys2.m
 
